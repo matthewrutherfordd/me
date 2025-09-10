@@ -86,7 +86,7 @@ const movies = [
   },
   {
     title: "Friends with Benefits",
-    poster: "Fwb.jpg",
+    poster: "fwb.jpg",
   },
   {
     title: "Not Another Teen Movie",
