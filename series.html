@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Favorite TV Series - Matthew Rutherford</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Background Music -->
+    <audio id="background-music" loop muted preload="auto">
+    <source src="mothh.mp3" type="audio/mpeg" />
+    <source src="moth.ogg" type="audio/ogg" />
+    </audio>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="nav-logo">Matthew Rutherford</a>
+        <div class="nav-menu" id="nav-menu">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="artists.html" class="nav-link">Artists</a>
+          <a href="movies.html" class="nav-link">Movies</a>
+          <a href="series.html" class="nav-link active">Series</a>
+        </div>
+        <div class="nav-controls">
+          <button id="music-toggle" class="music-btn">
+            <i class="fas fa-music"></i>
+          </button>
+        <div class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+      <div class="container">
+        <h1>My Favorite <span class="accent">TV Series</span></h1>
+        <p>
+          Television series are my companions through life's journey. These
+          shows have made me laugh, cry, think, and feel deeply connected to
+          their characters and stories.
+        </p>
+
+    <!-- Series Grid -->
+    <section class="series-section">
+      <div class="container">
+        <div class="series-grid" id="series-grid">
+          <!-- Series will be populated by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <br>
+    <!-- TV Philosophy -->
+    <section class="philosophy-section">
+      <div class="container">
+        <h2>Why <span class="primary">Television</span> Matters</h2>
+        <div class="philosophy-grid-2">
+          <div class="philosophy-card primary-border">
+            <i class="fas fa-heart"></i>
+            <h3>Character Development</h3>
+            <p>
+              TV series allow for deep character development over time. We grow
+              with these characters, experiencing their journeys season after
+              season.
+            </p>
+          </div>
+          <div class="philosophy-card accent-border">
+            <i class="fas fa-tv"></i>
+            <h3>Diverse Storytelling</h3>
+            <p>
+              Television has
+              become a global medium that showcases stories from every corner of
+              the world.
+            </p>
+          </div>
+        </div>
+
+        <div class="quote-section">
+          <blockquote>
+            "Television series are like long novels brought to life. They give
+            us time to truly know and love characters, to explore complex
+            themes, and to experience stories that unfold over years. Each show
+            here has been a companion through different phases of my life."
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>Explore More of My <span class="accent">Interests</span></h2>
+        <p>
+          TV series are just one part of my entertainment world. Discover my
+          favorite movies or the music that inspires me daily.
+        </p>
+        <div class="cta-buttons">
+          <a href="movies.html" class="btn btn-primary">
+            <i class="fas fa-heart"></i>
+            My Movies
+          </a>
+          <a href="artists.html" class="btn btn-outline"> My Artists </a>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="series.js"></script>
+  </body>
+</html>

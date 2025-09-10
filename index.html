@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matthew Rutherford - Personal Identity</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Background Music -->
+    <audio id="background-music" autoplay loop muted preload="auto">
+      <source src="mothh.mp3" type="audio/mpeg" />
+      <source src="moth.ogg" type="audio/ogg" />
+    </audio>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#home" class="nav-logo">Matthew Rutherford</a>
+        <div class="nav-menu" id="nav-menu">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="artists.html" class="nav-link">Artists</a>
+          <a href="movies.html" class="nav-link">Movies</a>
+          <a href="series.html" class="nav-link">Series</a>
+        </div>
+        <div class="nav-controls">
+          <button id="music-toggle" class="music-btn">
+            <i class="fas fa-music"></i>
+          </button>
+          <div class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main id="app"></main>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1 class="hero-title">
+          Matthew <span class="hero-surname">Rutherford</span>
+        </h1>
+        <div class="hero-buttons">
+          <a href="artists.html" class="btn btn-primary">
+            <i class="fas fa-music"></i>
+            Get Started
+          </a>
+          <a href="artists.html" class="btn btn-outline">
+            <i class="fas fa-heart"></i>
+            My Favorites
+          </a>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-mouse">
+          <div class="scroll-wheel"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Stats -->
+    <section class="stats">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-number">22</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">INFJ</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">♉</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">
+              <!-- Vincian (Gay Men Pride) Flag -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1.2em"
+                height="1.2em"
+                viewBox="0 0 640 480"
+                style="vertical-align: middle; border-radius: 3px"
+              >
+                <rect width="640" height="68.57" y="0" fill="#078d70" />
+                <rect width="640" height="68.57" y="68.57" fill="#26ceaa" />
+                <rect width="640" height="68.57" y="137.14" fill="#98e8c1" />
+                <rect width="640" height="68.57" y="205.71" fill="#ffffff" />
+                <rect width="640" height="68.57" y="274.28" fill="#7bade2" />
+                <rect width="640" height="68.57" y="342.85" fill="#5049cc" />
+                <rect width="640" height="68.57" y="411.42" fill="#3d1a78" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section Preview -->
+    <section id="about" class="about-preview">
+      <div class="container">
+        <div class="section-header">
+          <h2>About <span class="accent">Me</span></h2>
+          <p>
+            Welcome to my digital space where music meets cinema, and passion
+            drives creativity.
+          </p>
+        </div>
+
+        <div class="about-content">
+          <div class="interests-grid">
+            <h3>Things I Love</h3>
+            <div class="interests">
+              <div class="interest-item">Matcha</div>
+              <div class="interest-item">Snoopy</div>
+              <div class="interest-item">CharlesCarlos</div>
+              <div class="interest-item">Pool</div>
+              <div class="interest-item">Cats</div>
+              <div class="interest-item">Frogs</div>
+              <div class="interest-item">Resident Evil</div>
+              <div class="interest-item">Sleep</div>
+              <div class="interest-item">Movies</div>
+              <div class="interest-item">Series</div>
+              <div class="interest-item">TikTok Edits</div>
+              <div class="interest-item">Music</div>
+            </div>
+          </div>
+
+          <div class="profile-section">
+            <div class="profile-avatar"></div>
+            <p>
+              A passionate individual who finds joy in the intersection of
+              music, cinema, and life's simple pleasures. Always exploring new
+              sounds, stories, and experiences that inspire creativity and
+              connection.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Games Section -->
+    <section class="games-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Games I <span class="accent">Play</span></h2>
+          <p>Gaming is my escape into different worlds and adventures.</p>
+        </div>
+
+        <div class="games-grid">
+          <div class="game-item">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>Mobile Legends</h3>
+          </div>
+          <div class="game-item">
+            <i class="fas fa-crosshairs"></i>
+            <h3>PUBG</h3>
+          </div>
+          <div class="game-item">
+            <i class="fas fa-cube"></i>
+            <h3>Roblox</h3>
+          </div>
+          <div class="game-item">
+            <i class="fas fa-gamepad"></i>
+            <h3>Plato</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Guidelines -->
+    <section class="social-guidelines">
+      <div class="container">
+        <div class="guidelines-grid">
+          <div class="guideline-card dnf-card">
+            <h3>DNF <span class="accent">(Do Not Follow)</span></h3>
+            <ul>
+              <li>Homophobes</li>
+              <li>Under 19 years old</li>
+              <li>Won't interact with me</li>
+              <li>Hate speech or discrimination</li>
+              <li>Often engaged on unnecessary drama</li>
+            </ul>
+          </div>
+
+          <div class="guideline-card byf-card">
+            <h3>BYF <span class="accent">(Before You Follow)</span></h3>
+            <ul>
+              <li>A heavy reposter</li>
+              <li>I'm selective with follows</li>
+              <li>I may use harshwords occasionally</li>
+              <li>Occasional personal thoughts and updates</li>
+              <li>You'll see posts about anything, even irl stuff</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Links Section -->
+    <section class="links-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Connect With <span class="accent">Me</span></h2>
+          <p>Find me on other platforms and explore more of my content.</p>
+        </div>
+
+        <div class="links-grid">
+          <a
+            href="https://alterspring.org/@drincking"
+            target="_blank"
+            class="link-card"
+          >
+            <i class="fas fa-external-link-alt"></i>
+            <h3>Alterspring</h3>
+          </a>
+          <a href="https://x.com/drincking" class="link-card">
+            <i class="fas fa-envelope"></i>
+            <h3>X</h3>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Navigation -->
+    <section class="quick-nav">
+      <div class="container">
+        <div class="nav-cards">
+          <a href="artists.html" class="nav-card">
+            <i class="fas fa-music"></i>
+            <h3>Favorite Artists</h3>
+            <p>Discover the music that moves my soul</p>
+          </a>
+
+          <a href="movies.html" class="nav-card">
+            <i class="fas fa-film"></i>
+            <h3>Movies</h3>
+            <p>Cinematic experiences that captivate</p>
+          </a>
+
+          <a href="series.html" class="nav-card">
+            <i class="fas fa-tv"></i>
+            <h3>TV Series</h3>
+            <p>Stories that keep me coming back</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

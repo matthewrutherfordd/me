@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Favorite Artists - Matthew Rutherford</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Background Music -->
+    <audio id="background-music" loop muted preload="auto">
+    <source src="mothh.mp3" type="audio/mpeg" />
+    <source src="moth.ogg" type="audio/ogg" />
+    </audio>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <!-- Updated navigation logo from MR to full name -->
+        <a href="index.html" class="nav-logo">Matthew Rutherford</a>
+        <div class="nav-menu" id="nav-menu">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="artists.html" class="nav-link active">Artists</a>
+          <a href="movies.html" class="nav-link">Movies</a>
+          <a href="series.html" class="nav-link">Series</a>
+        </div>
+         <div class="nav-controls">
+          <!-- 🔘 Music toggle button -->
+          <button id="music-toggle" class="music-btn">
+            <i class="fas fa-music"></i>
+          </button>
+        <div class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+         </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+      <div class="container">
+        <h1>My Favorite <span class="accent">Artists</span></h1>
+        <p>
+          Music is the soundtrack to my soul. These are the artists who inspire
+          me, move me, and create the perfect atmosphere for every moment of my
+          life.
+        </p>
+
+    <!-- Artists Grid -->
+    <section class="artists-section">
+      <div class="container">
+        <div class="artists-grid" id="artists-grid">
+          <!-- Artists will be populated by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <br>
+    <!-- Music Philosophy -->
+    <section class="philosophy-section">
+      <div class="container">
+        <h2>Why <span class="primary">Music</span> Matters</h2>
+        <div class="philosophy-grid-2">
+          <div class="philosophy-card primary-border">
+            <i class="fas fa-heart"></i>
+            <h3>Emotional Connection</h3>
+            <p>
+              Each artist on this list has touched my soul in a unique way.
+              Their music has been the soundtrack to my growth, my struggles,
+              and my celebrations.
+            </p>
+          </div>
+          <div class="philosophy-card accent-border">
+            <i class="fas fa-play"></i>
+            <h3>Diverse Sounds</h3>
+            <p>
+              I believe in exploring all
+              genres. Music has no boundaries, and neither should our playlists.
+            </p>
+          </div>
+        </div>
+
+        <div class="quote-section">
+          <blockquote>
+            "Music is the universal language of mankind. It speaks to our hearts
+            when words fail, and connects us across cultures, generations, and
+            experiences. These artists are my teachers, my companions, and my
+            inspiration."
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>Discover More of My <span class="accent">World</span></h2>
+        <p>
+          Music is just one part of my story. Explore my favorite movies and
+          series, or learn more about who I am.
+        </p>
+        <div class="cta-buttons">
+          <a href="movies.html" class="btn btn-primary">
+            <i class="fas fa-heart"></i>
+            My Movies & Series
+          </a>
+          <a href="index.html" class="btn btn-outline"> Back to Home </a>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="artists.js"></script>
+  </body>
+</html>

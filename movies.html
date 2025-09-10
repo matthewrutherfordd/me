@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Favorite Movies - Matthew Rutherford</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+        <!-- Background Music -->
+    <audio id="background-music" loop muted preload="auto">
+    <source src="mothh.mp3" type="audio/mpeg" />
+    <source src="moth.ogg" type="audio/ogg" />
+    </audio>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <!-- Updated navigation logo from MR to full name -->
+        <a href="index.html" class="nav-logo">Matthew Rutherford</a>
+        <div class="nav-menu" id="nav-menu">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="artists.html" class="nav-link">Artists</a>
+          <a href="movies.html" class="nav-link active">Movies</a>
+          <a href="series.html" class="nav-link">Series</a>
+        </div>
+        <div class="nav-controls">
+          <button id="music-toggle" class="music-btn">
+            <i class="fas fa-music"></i>
+          </button>
+        <div class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+      <div class="container">
+        <h1>My Favorite <span class="accent">Movies</span></h1>
+        <p>
+          Cinema is my escape, my inspiration, and my teacher. These films have
+          shaped my perspective, moved my heart, and expanded my imagination.
+        </p>
+
+    <!-- Movies Grid -->
+    <section class="movies-section">
+      <div class="container">
+        <div class="movies-grid" id="movies-grid">
+          <!-- Movies will be populated by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <br>
+    <!-- Cinema Philosophy -->
+    <section class="philosophy-section">
+      <div class="container">
+        <h2>Why <span class="primary">Cinema</span> Matters</h2>
+        <div class="philosophy-grid-2">
+          <div class="philosophy-card primary-border">
+            <i class="fas fa-heart"></i>
+            <h3>Emotional Journey</h3>
+            <p>
+              Movies are emotional experiences that allow us to feel deeply,
+              empathize with others, and explore the full spectrum of human
+              emotion in a safe space.
+            </p>
+          </div>
+          <div class="philosophy-card accent-border">
+            <i class="fas fa-star"></i>
+            <h3>Visual Storytelling</h3>
+            <p>
+              Cinema is the ultimate art form that combines visuals, sound, and
+              narrative.
+            </p>
+          </div>
+        </div>
+
+        <div class="quote-section">
+          <blockquote>
+            "Movies are like dreams that we can share. They transport us to
+            different worlds, introduce us to new perspectives, and remind us of
+            our shared humanity. Each film on this list has left an indelible
+            mark on my soul."
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>Explore More of My <span class="accent">World</span></h2>
+        <p>
+          Movies are just one part of my entertainment universe. Check out my
+          favorite TV series or discover the music that moves me.
+        </p>
+        <div class="cta-buttons">
+          <a href="series.html" class="btn btn-primary">
+            <i class="fas fa-heart"></i>
+            My TV Series
+          </a>
+          <a href="artists.html" class="btn btn-outline"> My Artists </a>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="movies.js"></script>
+  </body>
+</html>
